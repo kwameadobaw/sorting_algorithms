@@ -1,4 +1,17 @@
 #include "sort.h"
+/**
+ * swap - Swap two integers in an array.
+ * @a: The first integer to swap.
+ * @b: The second inteegr to swap.
+*/
+void swap(int *a, int *b)
+{
+	int temp;
+
+	temp = *a;
+	*a = *b;
+	*b = temp;
+}
 
 /**
 * quick_sort - Sorts an array of integers in ascending order
