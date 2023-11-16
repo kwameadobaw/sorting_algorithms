@@ -11,7 +11,7 @@ void quick_sort(int *array, size_t size)
     if (array == NULL || size < 2)
         return;
 
-    recurssive_quick_sort(array, 0, size - 1, size);
+    recursive_quick_sort(array, 0, size - 1, size);
 
     print_array(array, size);
 }
@@ -23,7 +23,7 @@ void quick_sort(int *array, size_t size)
 * @high: Ending index of the partition to be sorted
 * @size: Number of elements in the array
 */
-void recursive_quick_sort(int *array, int low, int low, int high, size_t size)
+void recursive_quick_sort(int *array, int low, int high, size_t size)
 {
     int partition;
 
