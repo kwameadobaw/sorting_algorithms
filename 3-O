@@ -1,4 +1,4 @@
-/* Time complexity of Quick sort algorithm */
-Best case: 0(n log n)
-Average case: 0(n log n)
-Worst case: 0(n^2)
+O(n log n)  # Best case
+O(n log n)  # Average case
+O(n^2)      # Worst case
+
