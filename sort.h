@@ -13,9 +13,9 @@
  */
 typedef struct listint_s
 {
-    const int n;
-    struct listint_s *prev;
-    struct listint_s *next;
+	const int n;
+	struct listint_s *prev;
+	struct listint_s *next;
 } listint_t;
 
 void print_list(const listint_t *list);
@@ -31,5 +31,7 @@ int lomuto_partition(int *array, int low, int high, size_t size);
 void shell_sort(int *array, size_t size);
 void cocktail_sort_list(listint_t **list);
 void swap_nodes(listint_t **list, listint_t **node1, listint_t **node2);
+void counting_sort(int *array, size_t size);
+int get_max_number(int *array, int size);
 
 #endif /* SORT_H */
