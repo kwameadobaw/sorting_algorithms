@@ -1,0 +1,3 @@
+0(n log n) # Best case
+0(n log n) # Average case
+0(n log n) # Worst case
