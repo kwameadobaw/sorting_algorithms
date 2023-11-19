@@ -33,5 +33,11 @@ void cocktail_sort_list(listint_t **list);
 void swap_nodes(listint_t **list, listint_t **node1, listint_t **node2);
 void counting_sort(int *array, size_t size);
 int get_max_number(int *array, int size);
+void merge_recursive(int *array, size_t size);
+void merge_arrays(int *array, size_t left_size, int *right, size_t right_size);
+void merge_sort(int *array, size_t size);
+void print_array(const int *array, size_t size);
+void heapify(int * array, size_t size, size_t i, size_t total_size);
+void heap_sort(int *array, size_t size);
 
 #endif /* SORT_H */
