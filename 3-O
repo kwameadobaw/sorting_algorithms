@@ -1,4 +1,4 @@
-O(n log n)  # Best case
-O(n log n)  # Average case
+O(nlog(n))  # Best case
+O(nlog(n))  # Average case
 O(n^2)      # Worst case
 

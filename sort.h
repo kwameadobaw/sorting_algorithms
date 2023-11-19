@@ -37,7 +37,7 @@ void merge_recursive(int *array, size_t size);
 void merge_arrays(int *array, size_t left_size, int *right, size_t right_size);
 void merge_sort(int *array, size_t size);
 void print_array(const int *array, size_t size);
-void heapify(int * array, size_t size);
+void heapify(int *array, size_t size);
 void heap_sort(int *array, size_t size);
 void sift_down(int *array, size_t start, size_t end, size_t size);
 
