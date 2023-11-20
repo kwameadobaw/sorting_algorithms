@@ -3,6 +3,7 @@
 
 #include <stdlib.h>
 #include <stdio.h>
+#include <stdint.h>
 
 /**
  * struct listint_s - Doubly linked list node
@@ -43,5 +44,8 @@ void sift_down(int *array, size_t start, size_t end, size_t size);
 int hoare_partition(int *arr, int low, int high);
 void quicksort_recurssive(int *arr, int low, int high);
 void quick_sort_hoare(int *array, size_t size);
+int getMax(int *array, size_t size);
+void countingSort(int *array, size_t size, int exp);
+void radix_sort(int *array, size_t size);
 
 #endif /* SORT_H */
