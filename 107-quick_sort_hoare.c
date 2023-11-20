@@ -31,7 +31,7 @@ int hoare_partition(int *arr, int low, int high)
 			rightIndex--;
 
 		if (leftIndex >= rightIndex)
-			return rightIndex;
+			return (rightIndex);
 
 		temp = arr[leftIndex];
 		arr[leftIndex] = arr[rightIndex];
@@ -42,7 +42,7 @@ int hoare_partition(int *arr, int low, int high)
 	temp = arr[leftIndex];
 	arr[leftIndex] = arr[rightIndex];
 	arr[rightIndex] = temp;
-	return rightIndex;
+	return (rightIndex);
 }
 /**
 * quicksort_recurssive - Quicksort recurssive function
